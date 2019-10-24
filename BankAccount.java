@@ -12,7 +12,7 @@ public class BankAccount {
 		return nextAccountID;
 	}
 
-	public static long deposit(BigDecimal depositAmt) {
+	public static BigDecimal deposit(BigDecimal depositAmt) {
 		balance = depositAmt.add(depositAmt);
 		return balance;
 	}
