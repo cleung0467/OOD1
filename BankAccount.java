@@ -30,5 +30,5 @@ public class BankAccount {
 		this.balance = balance;
 	}
 
-	List<Account> accounts = new ArrayList<Account>();
+	ArrayList<BankAccount> accounts = new ArrayList<BankAccount>();
 }
