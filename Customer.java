@@ -17,11 +17,14 @@ public abstract class Customer extends BankAccount {
 		return nextCustomerID;
 	}
 
-	ArrayList<String> listAccount = new ArrayList<String>();
+	setAccounts(){
+	ArrayList<BankAccount> accounts = new ArrayList<BankAccount>();
 
-	listAccount.add("Customer Account 1");listAccount.add("Customer Account 2");listAccount.add("Customer Account 3");listAccount.add(7);
+	listAccount.add("Customer Account 1");
+	listAccount.add("Customer Account 2");
+	listAccount.add("Customer Account 3");listAccount.add(7);
 
-	Iterator it = listAccount.iterator();
+	Iterator<String> = listAccount.iterator();
 
 	balance=depositAmt.add(depositAmt);return balance;
 
@@ -30,4 +33,5 @@ public abstract class Customer extends BankAccount {
 	{
 		System.out.println(account.next());
 	}
+}
 }
