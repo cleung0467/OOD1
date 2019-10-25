@@ -11,6 +11,14 @@ public class BankAccount {
 		nextAccountID += 5;
 		return nextAccountID;
 	}
+  
+  	public BigDecimal getBalance() {
+		return balance;
+	}
+
+	public void getBalance(BigDecimal balance) {
+		this.balance = balance;
+	}
 
 	public static BigDecimal deposit(BigDecimal depositAmt) {
 		balance = depositAmt.add(depositAmt);
@@ -20,14 +28,6 @@ public class BankAccount {
 	public static BigDecimal withdraw(BigDecimal withdrawalAmt) {
 		balance = balance.subtract(withdrawalAmt);
 		return balance;
-	}
-
-	public BigDecimal getBalance() {
-		return balance;
-	}
-
-	public void setBalance(BigDecimal balance) {
-		this.balance = balance;
 	}
 
 	ArrayList<BankAccount> accounts = new ArrayList<BankAccount>();
