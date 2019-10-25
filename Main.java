@@ -8,10 +8,10 @@ public class Main {
 		Checking.setType();
 		Checking.setBalance(0);
 
-		BankAccount savings = new BankAccount();
-		savings.setType("Savings");
-		savings.setBalance(0);
-		savings.setInterestRate(2.00);
+		BankAccount Savings = new BankAccount();
+		Savings.setType("Savings");
+		Savings.setBalance(0);
+		Savings.setInterestRate();
 		
 		BigDecimal balance = new BigDecimal(1_000_000);
 		long nextAccountID = 150_000;
