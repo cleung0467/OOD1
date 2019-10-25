@@ -14,7 +14,8 @@ public class Main {
 		BigDecimal setBalance = new BigDecimal(0);
         BigDecimal setInterestRate = new BigDecimal(0);
       
-		System.out.println("The Account ID is " + nextAccountID);
+      	System.out.println("Your Bank Account ID is " + BankAccount.makeAccountID());
+		System.out.println("The User ID is " + nextAccountID);
 		System.out.println("Your balance is " + balance);
 		System.out.println("You deposited " + depositAmt);
 		System.out.println("You withdrew " + withdrawAmt);
