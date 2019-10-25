@@ -9,11 +9,11 @@ public abstract class Customer extends BankAccount {
 	}
 
 	public static long nextCustomerID = 2_000_000;
-	public String name;
-	public String address;
-	public long taxIDNumber;
+	private String name;
+	private String address;
+	private long taxIDNumber;
 
-	private long customerID() {
+	public long customerID() {
 		nextCustomerID += 7;
 		return nextCustomerID;
 	}
