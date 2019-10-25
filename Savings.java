@@ -13,7 +13,7 @@ public class Savings extends BankAccount {
   
 	BigDecimal interestRate = new BigDecimal(0);
 
-	public BigDecimal getInterestRate() {
+	private BigDecimal getInterestRate() {
 		return interestRate;
 	}
 
