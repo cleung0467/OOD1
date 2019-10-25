@@ -1,13 +1,16 @@
 package project;
 
+/** Checking account inherits from BankAccount */
 public class Checking extends BankAccount {
-	Checking() {
+	Checking() {  //Constructor
 
 	}
 
+//Create variables
 	private long nextCheckIssued;
 	private long firstCheck;
 
+/** Establish account type */
     public String setType(String accountType){
       return ("Checking");
     }
