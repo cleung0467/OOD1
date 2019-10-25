@@ -16,9 +16,9 @@ public class Main {
       
       	System.out.println("Your Bank Account ID is " + BankAccount.makeAccountID());
 		System.out.println("The User ID is " + nextAccountID);
-		System.out.println("Your balance is " + balance);
-		System.out.println("You deposited " + depositAmt);
-		System.out.println("You withdrew " + withdrawAmt);
-		System.out.println("You reset your balance as " + setBalance);
+		System.out.println("Your balance is " + balance  + "$");
+		System.out.println("You deposited " + depositAmt  + "$");
+		System.out.println("You withdrew " + withdrawAmt  + "$");
+		System.out.println("You reset your balance to " + setBalance + "$");
 	}
 }
