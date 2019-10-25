@@ -7,6 +7,4 @@ public class Company extends Customer {
 	Company() {
 
 	}
-
-	List<Account> accounts = new ArrayList<Account>();
 }
