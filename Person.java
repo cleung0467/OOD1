@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Person extends Customer {
 	Person() {
-		List<Account> accounts = new ArrayList<Account>();
+		
 	}
 
 }
