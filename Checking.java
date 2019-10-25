@@ -8,6 +8,10 @@ public class Checking extends BankAccount {
 	private long nextCheckIssued;
 	private long firstCheck;
 
+    public String setType(String accountType){
+      return ("Checking");
+    }
+  
 	public long nextCheckIssued() {
 		nextCheckIssued += 1;
 		return nextCheckIssued;
