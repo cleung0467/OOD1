@@ -1,4 +1,4 @@
-package project;
+  package project;
 
 import java.math.BigDecimal;
 
@@ -7,6 +7,10 @@ public class Savings extends BankAccount {
 
 	}
 
+      public String setType(String accountType){
+      return accountType;
+    }
+  
 	BigDecimal interestRate = new BigDecimal(0);
 
 	public BigDecimal getInterestRate() {
