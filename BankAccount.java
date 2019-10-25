@@ -4,15 +4,15 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class BankAccount {
-	public static long nextAccountID = 1000;
-	public static BigDecimal balance;
+	private static long nextAccountID = 1000;
+	private static BigDecimal balance;
 
 	public static long makeAccountID() {
 		nextAccountID += 5;
 		return nextAccountID;
 	}
   
-  	public BigDecimal getBalance() {
+  	private BigDecimal getBalance() {
 		return balance;
 	}
 
