@@ -4,14 +4,14 @@ import java.math.BigDecimal;
 
 public class Main {
 	public static void main(String[] args) {
-		Account checking = new Account();
-		checking.setType("Checking");
-		checking.setBalance(0);
+		BankAccount checking = new BankAccount();
+		Checking.setType();
+		Checking.setBalance(0);
 
-		Account savings = new Account();
+		BankAccount savings = new BankAccount();
 		savings.setType("Savings");
 		savings.setBalance(0);
-		savings.setRate(2.00);
+		savings.setInterestRate(2.00);
 		
 		BigDecimal balance = new BigDecimal(1_000_000);
 		long nextAccountID = 150_000;
