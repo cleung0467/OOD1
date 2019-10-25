@@ -21,5 +21,7 @@ public class Main {
 		System.out.println("You withdrew " + "$" + withdrawAmt);
 		System.out.println("You reset your balance to " + "$" + setBalance);
         System.out.println("The interest rate on your savings account is " + setInterestRate + "%");
+        System.out.println(Checking.firstCheckIssued());  
+        System.out.println(Checking.getFirstCheck());
 	}
 }
